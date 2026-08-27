@@ -1,0 +1,10 @@
+undetected-chromedriver
+selenium
+httpx
+pyvirtualdisplay
+Pillow
+ddddocr
+pytesseract
+SpeechRecognition
+pydub
+rich
