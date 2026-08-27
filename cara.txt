@@ -1,0 +1,17 @@
+python kiro.py              # Semua akun, 1 thread
+python kiro.py 5            # 5 akun, 1 thread
+python kiro.py all 3        # Semua akun, 3 thread
+python kiro.py 10 5         # 10 akun, 5 thread
+python kiro.py 10 5 -f akun.txt
+python kiro.py 10 5 --visible
+
+
+import ke 9router
+# Import dari refresh_tokens.txt
+python kiro_import.py
+
+# Dengan password9router, 4 workers
+python kiro_import.py refresh_tokens.txt 4 -p MyPassword
+
+# Remote9router
+python kiro_import.py tokens.txt --url http://192.168.1.100:20128
